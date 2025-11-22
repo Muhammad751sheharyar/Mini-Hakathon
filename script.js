@@ -51,7 +51,7 @@ function bloges() {
     form.style.display = "none";
     if (blognameinp == "") {
         return console.log("not value")
-    }
+    }  
 
 
     let blogD = {
