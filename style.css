@@ -80,7 +80,7 @@ body {
 .in1 input {
     /* text-align: inherit; */
     font-size: 20px;
-    color: #f77f00;
+    color: black;
     height: 50px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.0);
@@ -178,9 +178,6 @@ a {
     /* background-color: red; */
 }
 
-/* a :hover{
-    color: gray;
- } */
 
 
 
@@ -300,7 +297,7 @@ h2 {
 }
 
 .Plogo {
-    color: #03162e;
+    color: white;
     margin-left: 10px;
     font-family: sans-serif;
 }
@@ -401,7 +398,7 @@ textarea {
     text-align: center;
     height: 100px;
     width: 500px;
-    color: #2778e0;
+    color: #f77f00;
     /* background-color: red; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -432,7 +429,7 @@ textarea {
     height: 50px;
     width: 130px;
     font-size: 18px;
-    background-color: #4d8cdd;
+    background-color: #f77f00;
     margin-bottom: 120px;
 }
 
@@ -446,7 +443,7 @@ textarea {
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 80px;
+    height: 100px;
     width: 100%;
     /* background-color: red; */
 }
