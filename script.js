@@ -162,6 +162,11 @@ function bloges() {
     icon.style.fontSize="30px"
     icon.innerHTML=`<i class="fa-solid fa-heart"></i>`
     like.append(icon);
+   icon.addEventListener("click",()=>{
+
+        icon.style.color="red";
+    
+    })
 
     let btnBox = document.createElement("div");
     btnBox.setAttribute('class', 'btnBox');
