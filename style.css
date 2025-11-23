@@ -406,8 +406,8 @@ textarea {
     color: black;
     height: 100px;
     width: 500px;
-    /* border: 2px solid navy; */
-    /* background-color: black; */
+color: #2778e0;
+background-color: red;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -422,10 +422,6 @@ textarea {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
-
-    /* background-color: black; */
 }
 
 .icon {
@@ -536,7 +532,7 @@ textarea {
     width: 43%;
     /* border: 2px solid; */
     justify-content: end;
-    justify-items: end;
+    /* justify-items: end; */
     align-items: end;
     /* gap: 20px; */
 }
