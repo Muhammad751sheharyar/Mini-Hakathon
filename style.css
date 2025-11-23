@@ -1,6 +1,7 @@
-body{
+body {
     font-family: sans-serif;
 }
+
 .Main {
     border-radius: 50px;
     margin: 0% auto;
@@ -20,7 +21,7 @@ body{
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
-    background-color: #4d8cdd;
+    background-color: #f77f00;
     height: 100%;
     width: 45%;
     /* background-color: white; */
@@ -37,6 +38,7 @@ body{
     color: white;
     font-size: 25px;
 }
+
 .para {
     /* background-color: red; */
     height: 80px;
@@ -71,14 +73,14 @@ body{
 }
 
 .fh {
-    color: gray;
+    color: #f77f00;
     font-size: 30px;
 }
 
 .in1 input {
     /* text-align: inherit; */
     font-size: 20px;
-    color: black;
+    color: #f77f00;
     height: 50px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.0);
@@ -90,7 +92,7 @@ body{
     height: 70px;
     width: 70%;
     display: flex;
-    border-bottom: 3px solid #4d8cdd;
+    border-bottom: 3px solid #f77f00;
 }
 
 .email label {
@@ -101,7 +103,7 @@ body{
     height: 70px;
     width: 70%;
     margin-bottom: 50px;
-    border-bottom: 3px solid #4d8cdd;
+    border-bottom: 3px solid #f77f00;
 }
 
 .btnf {
@@ -116,7 +118,8 @@ body{
 .btnf button {
     font-size: 19px;
     color: white;
-    background-color: #4d8cdd;
+    background-color: #f77f00;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     height: 100%;
     width: 100%;
@@ -133,7 +136,8 @@ body{
     /* color: red; */
 
 }
-.loginBTN a{
+
+.loginBTN a {
     height: 50px;
     display: flex;
     width: 120px;
@@ -141,22 +145,24 @@ body{
     align-items: center;
     font-size: 19px;
     color: white;
-    background-color: #4d8cdd;
+    background-color: #f77f00;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     margin-bottom: 10px;
-border: none;
+    border: none;
 }
+
 .loginBTN a:hover {
     border: 2px solid black;
     transition: all 1s;
     background-color: white;
     color: gray;
-border: none;
+    border: none;
 
 }
 
 
-.icon1{
+.icon1 {
     font-size: 30px;
     margin-top: 10px;
     height: 30px;
@@ -203,7 +209,7 @@ a {
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
-    background-color: #4d8cdd;
+    background-color: #f77f00;
     height: 100%;
     width: 45%;
     /* background-color: white; */
@@ -265,7 +271,7 @@ a {
 
 
 h2 {
-    /* color: black; */
+    /* fhcolor: black; */
 }
 
 
@@ -290,13 +296,15 @@ h2 {
     display: flex;
     height: 120px;
     width: 100%;
-    background-color: #4dccdd;
+    background-color: #f77f00;
 }
-.Plogo{
+
+.Plogo {
     color: #03162e;
     margin-left: 10px;
     font-family: sans-serif;
 }
+
 .plogoutmain {
     margin-right: 30px;
     justify-content: space-between;
@@ -326,7 +334,8 @@ h2 {
     font-size: 17px;
     height: 50px;
     width: 35%;
-    background-color: #4d8cdd;
+    background-color: #f77f00;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
     color: white;
     display: flex;
     justify-content: center;
@@ -345,8 +354,6 @@ h2 {
     height: 130px;
     width: 130px;
     /* background-color: #464442; */
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .from {
@@ -361,7 +368,7 @@ h2 {
     margin: 0% auto;
     height: 450px;
     width: 35%;
-    background-color: #6e95c9;
+    background-color: #f77f00;
 }
 
 input {
@@ -372,17 +379,18 @@ input {
 
 textarea {
     border-radius: 20px;
-
     height: 100px;
     width: 80%;
 }
+
 .submit {
     color: white;
     font-size: 20px;
     border: none;
     height: 40px;
     width: 120px;
-    background-color: #2778e0;
+    background-color: #f77f00;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
     border-radius: 30px
 }
 
@@ -391,12 +399,10 @@ textarea {
     display: flex;
     font-size: 30px;
     text-align: center;
-    /* margin-top: 20px; */
-    color: black;
     height: 100px;
     width: 500px;
-color: #2778e0;
-background-color: red;
+    color: #2778e0;
+    /* background-color: red; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -412,17 +418,6 @@ background-color: red;
     border-bottom-left-radius: 20px;
     display: flex;
 }
-
-.icon {
-    height: 50px;
-    width: 50px;
-    /* background-color: red; */
-    border-radius: 100px;
-    background-image: url(./assects/images-removebg-preview\ \(1\).png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .decription {
     font-size: 25px;
     color: black;
@@ -477,7 +472,7 @@ background-color: red;
     margin: 0% auto;
     height: auto;
     width: 400px;
-    background-color: red;
+    /* background-color: red; */
 
 }
 
@@ -513,7 +508,7 @@ background-color: red;
     box-shadow: 5px -2px 3px 3px gray;
 }
 
-.mainBox{
+.mainBox {
     display: flex;
     flex-direction: column;
     margin: 0% auto;
@@ -525,7 +520,8 @@ background-color: red;
     align-items: end;
     /* gap: 20px; */
 }
-.btnBox{
+
+.btnBox {
     height: 60px;
     width: 100%;
     /* background-color: red; */
@@ -534,27 +530,29 @@ background-color: red;
     align-items: center;
     justify-content: end;
 }
-.Dbtn{ 
-    background-color: #2778e0;
+
+.Dbtn {
+    background-color: #f77f00;
     /* margin-top: 20px; */
     border-radius: 20px;
     height: 50px;
     width: 120px;
-font-size: 18px;
-color: white;
-border: none;
+    font-size: 18px;
+    color: white;
+    border: none;
 }
-.editBtn{
+
+.editBtn {
     height: 50px;
     width: 80px;
-    background-color: #2778e0;
+    background-color: #f77f00;
     border-radius: 20px;
     color: white;
     font-size: 18px;
     border: none;
 }
 
-.like{
+.like {
     height: 60px;
     width: 100%;
     color: black;
