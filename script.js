@@ -205,7 +205,9 @@ function bloges() {
 // let Get=[]
 function Viewblog(){
    let Blog=JSON.parse(localStorage.getItem("Blog"));
-    console.log(Blog)
+    console.log(Blog);
+    let vi=document.createElement("div");
+    vi.innerHTML=Blog
 }
 function panel() {
     let form = document.getElementById("form");
