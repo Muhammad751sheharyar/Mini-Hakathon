@@ -71,10 +71,8 @@ body{
 }
 
 .fh {
-    /* margin-bottom: 30px; */
-
     color: gray;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .in1 input {
